@@ -1,0 +1,10 @@
+In this model we used the Resnet50 and applying the transfer learning .
+
+Epochs = 60
+Batch=32
+Train images is feed into the Model through flow_from_dataFrame function in which the Testing and Validation Images 
+are split by 0.2 ratio. 
+Accuray of model is around 75-80%.
+Val_Accuracy is around 30-35%. 
+Loss is around is around 0.4
+
